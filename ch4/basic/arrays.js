@@ -56,11 +56,11 @@ let sortedNumericArray = numericArray.sort((a,b) =>  b-a)
 
 console.log(sortedNumericArray)
 
-// slice
+// slice 取得指定index間的arrary value
 
-var slicedStates = sortedArray.slice(2,3)
+var slicedStates = sortedArray.slice(2,3) //取得index介在2-3之間，不包括3的value
 console.log(slicedStates)
-slicedStates = sortedArray.slice(2)
+slicedStates = sortedArray.slice(2) //取得index,2之後的所有value
 console.log(slicedStates)
 
 
